@@ -1,0 +1,20 @@
+Assignment 1 - Word Frequency Results
+========================================
+
+Natural: 1
+Language: 1
+Processing: 1
+NLP: 2
+field: 1
+Artificial: 1
+Intelligence: 1
+focuses: 1
+enabling: 1
+computers: 1
+understand: 1
+process: 1
+human: 1
+language: 1
+first: 1
+assignment: 1
+course: 1
