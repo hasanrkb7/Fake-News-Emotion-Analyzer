@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-02-18T15:58:28",
+  "model": "distilbert-base-uncased",
+  "task": "LIAR binary (true-ish vs false-ish)",
+  "label_rules": {
+    "1_trueish": [
+      "half-true",
+      "mostly-true",
+      "true"
+    ],
+    "0_falseish": [
+      "barely-true",
+      "false",
+      "pants-fire"
+    ]
+  },
+  "train_subset_size": 2000,
+  "val_subset_size": 500,
+  "test_subset_size": 500,
+  "val_metrics_last": {
+    "accuracy": 0.614,
+    "f1": 0.650995
+  },
+  "test_metrics": {
+    "eval_loss": 0.6663753390312195,
+    "eval_accuracy": 0.6211523283346487,
+    "eval_f1": 0.7159763313609467,
+    "eval_runtime": 71.4697,
+    "eval_samples_per_second": 17.728,
+    "eval_steps_per_second": 0.56,
+    "epoch": 3.0
+  }
+}
