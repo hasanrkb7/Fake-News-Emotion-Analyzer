@@ -1,0 +1,254 @@
+{
+  "n_total": 10240,
+  "n_clean": 10240,
+  "fake_count": 4488,
+  "trueish_count": 5752,
+  "top1_fake_top15": [
+    [
+      "neutral",
+      3667
+    ],
+    [
+      "approval",
+      188
+    ],
+    [
+      "disapproval",
+      175
+    ],
+    [
+      "disappointment",
+      118
+    ],
+    [
+      "annoyance",
+      80
+    ],
+    [
+      "optimism",
+      63
+    ],
+    [
+      "realization",
+      45
+    ],
+    [
+      "admiration",
+      43
+    ],
+    [
+      "curiosity",
+      17
+    ],
+    [
+      "sadness",
+      13
+    ],
+    [
+      "surprise",
+      12
+    ],
+    [
+      "confusion",
+      10
+    ],
+    [
+      "disgust",
+      9
+    ],
+    [
+      "gratitude",
+      9
+    ],
+    [
+      "anger",
+      7
+    ]
+  ],
+  "top1_trueish_top15": [
+    [
+      "neutral",
+      4626
+    ],
+    [
+      "approval",
+      288
+    ],
+    [
+      "disapproval",
+      202
+    ],
+    [
+      "disappointment",
+      183
+    ],
+    [
+      "admiration",
+      112
+    ],
+    [
+      "annoyance",
+      67
+    ],
+    [
+      "optimism",
+      66
+    ],
+    [
+      "realization",
+      60
+    ],
+    [
+      "curiosity",
+      20
+    ],
+    [
+      "disgust",
+      19
+    ],
+    [
+      "surprise",
+      18
+    ],
+    [
+      "sadness",
+      17
+    ],
+    [
+      "gratitude",
+      16
+    ],
+    [
+      "caring",
+      14
+    ],
+    [
+      "fear",
+      11
+    ]
+  ],
+  "top10_more_trueish": [
+    {
+      "emotion": "approval",
+      "trueish_mean": 0.07051052153110504,
+      "fake_mean": 0.06232411414384842,
+      "diff": 0.008186407387256622
+    },
+    {
+      "emotion": "admiration",
+      "trueish_mean": 0.02051640674471855,
+      "fake_mean": 0.012695780955255032,
+      "diff": 0.00782062578946352
+    },
+    {
+      "emotion": "realization",
+      "trueish_mean": 0.02665534056723118,
+      "fake_mean": 0.019873278215527534,
+      "diff": 0.006782062351703644
+    },
+    {
+      "emotion": "disappointment",
+      "trueish_mean": 0.028967060148715973,
+      "fake_mean": 0.027037251740694046,
+      "diff": 0.0019298084080219269
+    },
+    {
+      "emotion": "gratitude",
+      "trueish_mean": 0.004788121208548546,
+      "fake_mean": 0.003906669095158577,
+      "diff": 0.0008814521133899689
+    },
+    {
+      "emotion": "pride",
+      "trueish_mean": 0.0022036144509911537,
+      "fake_mean": 0.0014213916147127748,
+      "diff": 0.000782222836278379
+    },
+    {
+      "emotion": "excitement",
+      "trueish_mean": 0.002801306778565049,
+      "fake_mean": 0.0021793032065033913,
+      "diff": 0.0006220035720616579
+    },
+    {
+      "emotion": "surprise",
+      "trueish_mean": 0.004882241599261761,
+      "fake_mean": 0.004388233181089163,
+      "diff": 0.0004940084181725979
+    },
+    {
+      "emotion": "sadness",
+      "trueish_mean": 0.0057761515490710735,
+      "fake_mean": 0.005331961903721094,
+      "diff": 0.0004441896453499794
+    },
+    {
+      "emotion": "caring",
+      "trueish_mean": 0.004054838325828314,
+      "fake_mean": 0.003744937479496002,
+      "diff": 0.00030990084633231163
+    }
+  ],
+  "top10_more_fake": [
+    {
+      "emotion": "neutral",
+      "trueish_mean": 0.7341838479042053,
+      "fake_mean": 0.7563139796257019,
+      "diff": -0.022130131721496582
+    },
+    {
+      "emotion": "annoyance",
+      "trueish_mean": 0.023964418098330498,
+      "fake_mean": 0.029774218797683716,
+      "diff": -0.005809800699353218
+    },
+    {
+      "emotion": "disapproval",
+      "trueish_mean": 0.039812467992305756,
+      "fake_mean": 0.04544638842344284,
+      "diff": -0.005633920431137085
+    },
+    {
+      "emotion": "confusion",
+      "trueish_mean": 0.0021904960740357637,
+      "fake_mean": 0.0038362161722034216,
+      "diff": -0.0016457200981676579
+    },
+    {
+      "emotion": "optimism",
+      "trueish_mean": 0.016171054914593697,
+      "fake_mean": 0.017630042508244514,
+      "diff": -0.0014589875936508179
+    },
+    {
+      "emotion": "anger",
+      "trueish_mean": 0.003568120300769806,
+      "fake_mean": 0.004935841076076031,
+      "diff": -0.0013677207753062248
+    },
+    {
+      "emotion": "desire",
+      "trueish_mean": 0.0031128532718867064,
+      "fake_mean": 0.003842670004814863,
+      "diff": -0.0007298167329281569
+    },
+    {
+      "emotion": "love",
+      "trueish_mean": 0.0005071807536296546,
+      "fake_mean": 0.001064190175384283,
+      "diff": -0.0005570094217546284
+    },
+    {
+      "emotion": "remorse",
+      "trueish_mean": 0.0005139599670656025,
+      "fake_mean": 0.0007667203317396343,
+      "diff": -0.00025276036467403173
+    },
+    {
+      "emotion": "embarrassment",
+      "trueish_mean": 0.0007728292839601636,
+      "fake_mean": 0.0009539482416585088,
+      "diff": -0.00018111895769834518
+    }
+  ]
+}
