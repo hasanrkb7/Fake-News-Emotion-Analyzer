@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-02-24T00:01:46",
+  "model": "distilroberta-base",
+  "task": "LIAR binary (true-ish vs false-ish)",
+  "label_rules": {
+    "1_trueish": [
+      "half-true",
+      "mostly-true",
+      "true"
+    ],
+    "0_falseish": [
+      "barely-true",
+      "false",
+      "pants-fire"
+    ]
+  },
+  "train_size": 10240,
+  "val_size": 1284,
+  "test_size": 1267,
+  "val_metrics": {
+    "eval_loss": 0.8835694789886475,
+    "eval_accuracy": 0.6643302180685359,
+    "eval_macro_f1": 0.6625599768781475,
+    "eval_runtime": 36.8765,
+    "eval_samples_per_second": 34.819,
+    "eval_steps_per_second": 1.112,
+    "epoch": 5.0
+  },
+  "test_metrics": {
+    "eval_loss": 0.9625345468521118,
+    "eval_accuracy": 0.6345698500394633,
+    "eval_macro_f1": 0.626162941493982,
+    "eval_runtime": 36.4387,
+    "eval_samples_per_second": 34.771,
+    "eval_steps_per_second": 1.098,
+    "epoch": 5.0
+  }
+}
